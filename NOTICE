@@ -1,0 +1,18 @@
+Multilingual RAG for Korean University Administrative Documents
+Copyright (C) 2026 Guangyuan Yuan
+
+License scope
+-------------
+
+The GNU Affero General Public License version 3 only applies to the original
+project source code and configuration authored for this repository, except
+where a file states otherwise. See LICENSE for the complete license terms.
+
+This copyright notice and project license do not grant rights in third-party
+software dependencies, pretrained model or tokenizer weights, externally
+hosted model services, or university documents and their reconstructable
+derived text. Those materials remain subject to their respective licenses,
+terms, and copyright notices.
+
+See docs/THIRD_PARTY_NOTICES.md and docs/third_party_data_notice.md for the
+corresponding boundaries and source information.

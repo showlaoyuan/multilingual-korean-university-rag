@@ -1,0 +1,70 @@
+{
+  "time": "2026-10-09T12:13:06.563540+09:00",
+  "kind": "posthoc_descriptive_audit_not_metric_revision",
+  "q05_minimum_chunks_for_all_registered_facts": 7,
+  "q05_covering_chunk_ids": [
+    "token128_clause_v1__hufs_03_visa_extension_guide__0002",
+    "token128_clause_v1__hufs_03_visa_extension_guide__0003",
+    "token128_clause_v1__hufs_03_visa_extension_guide__0004",
+    "token128_clause_v1__hufs_03_visa_extension_guide__0005",
+    "token128_clause_v1__hufs_03_visa_extension_guide__0006",
+    "token128_clause_v1__hufs_03_visa_extension_guide__0007",
+    "token128_clause_v1__hufs_03_visa_extension_guide__0008"
+  ],
+  "q05_per_chunk_facts": [
+    {
+      "chunk_id": "token128_clause_v1__hufs_03_visa_extension_guide__0002",
+      "fact_ids": [
+        "application"
+      ]
+    },
+    {
+      "chunk_id": "token128_clause_v1__hufs_03_visa_extension_guide__0003",
+      "fact_ids": [
+        "passport"
+      ]
+    },
+    {
+      "chunk_id": "token128_clause_v1__hufs_03_visa_extension_guide__0004",
+      "fact_ids": [
+        "registration",
+        "tb"
+      ]
+    },
+    {
+      "chunk_id": "token128_clause_v1__hufs_03_visa_extension_guide__0005",
+      "fact_ids": [
+        "enrollment"
+      ]
+    },
+    {
+      "chunk_id": "token128_clause_v1__hufs_03_visa_extension_guide__0006",
+      "fact_ids": [
+        "transcript"
+      ]
+    },
+    {
+      "chunk_id": "token128_clause_v1__hufs_03_visa_extension_guide__0007",
+      "fact_ids": [
+        "residence"
+      ]
+    },
+    {
+      "chunk_id": "token128_clause_v1__hufs_03_visa_extension_guide__0008",
+      "fact_ids": [
+        "fee"
+      ]
+    }
+  ],
+  "q11_zh_mapping_caveat": {
+    "top5_rank": 5,
+    "chunk_id": "token128_clause_v1__ewha_01_grad_academic_guide__0101",
+    "observation": "Contains doctoral GPA 3.0, outside registered first-occurrence master GPA span. Raw automatic zero is not proof of zero related evidence; general graduate scope still needs adjudication."
+  },
+  "q06_mapping_caveat": "Top5 academic-guide chunk __0174 contains foreign-student Korean/TOPIK option outside registered foreign-language-guide spans; masters full conditions and KFLT exception still absent.",
+  "preregistration_unchanged": true,
+  "protected_files": {
+    "count": 42,
+    "unchanged": true
+  }
+}

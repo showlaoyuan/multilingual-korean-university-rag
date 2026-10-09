@@ -1,0 +1,36 @@
+{
+  "total_questions": 30,
+  "supported_count": 23,
+  "insufficient_count": 7,
+  "supported_rate": 76.67,
+  "retrieval_source_hit_count": 26,
+  "retrieval_source_hit_at_5": 86.67,
+  "retrieval_chunk_evaluable_count": 26,
+  "retrieval_chunk_hit_count": 20,
+  "retrieval_chunk_hit_at_5": 76.92,
+  "citation_source_hit_count": 22,
+  "citation_source_hit_rate": 73.33,
+  "citation_chunk_evaluable_count": 26,
+  "citation_chunk_hit_count": 19,
+  "citation_chunk_hit_rate": 73.08,
+  "by_language": {
+    "zh": {
+      "total": 15,
+      "supported": 12,
+      "retrieval_source_hit": 14,
+      "citation_source_hit": 12,
+      "supported_rate": 80.0,
+      "retrieval_source_hit_rate": 93.33,
+      "citation_source_hit_rate": 80.0
+    },
+    "ko": {
+      "total": 15,
+      "supported": 11,
+      "retrieval_source_hit": 12,
+      "citation_source_hit": 10,
+      "supported_rate": 73.33,
+      "retrieval_source_hit_rate": 80.0,
+      "citation_source_hit_rate": 66.67
+    }
+  }
+}

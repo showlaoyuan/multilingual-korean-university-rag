@@ -1,0 +1,40 @@
+{
+  "version": "token128_clause_v1",
+  "output_dir": "data/experiments/token128_clause_v1",
+  "pages": "data/processed/pages.jsonl",
+  "source_catalog": "学校材料整理/韩国高校官方材料_2026-10-02/来源清单.json",
+  "model": "sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2",
+  "snapshot": "e8f8c211226b894fcb81acc59f3b34ba3efd5f42",
+  "max_tokens": 128,
+  "target_tokens": 112,
+  "metadata_max_tokens": 40,
+  "metadata_title_tokens": 12,
+  "metadata_heading_tokens": 12,
+  "overlap_max_tokens": 16,
+  "top_k": 5,
+  "school_names": {
+    "ewha": "이화여자대학교",
+    "hanyang": "한양대학교",
+    "hufs": "한국외국어대학교",
+    "sogang": "서강대학교",
+    "yonsei": "연세대학교"
+  },
+  "document_source_ids": {
+    "hufs_01_academic_guide": "01",
+    "hufs_02_foreign_language_exam": "02",
+    "hufs_03_visa_extension_guide": "03",
+    "yonsei_01_degree_requirements": "04",
+    "yonsei_02_thesis_review": "05",
+    "yonsei_03_thesis_qualification_exam": "06",
+    "hanyang_01_leave_guide": "07",
+    "hanyang_02_return_guide": "08",
+    "ewha_01_grad_academic_guide": "09",
+    "ewha_02_degree_requirements": "10",
+    "ewha_03_course_registration_guide": "11",
+    "sogang_01_thesis_rules": "12",
+    "sogang_02_exam_rules": "13"
+  },
+  "rules_version": "generic-clause-v1-no-qa-input",
+  "cross_page_merge": false,
+  "notes": "No re-ranking, scope filtering, query rewriting, model change, LLM calls or table reconstruction. Ambiguous text retained."
+}
