@@ -223,6 +223,6 @@ Original project code is copyright © 2026 Guangyuan Yuan and licensed under the
 | [`data/evaluation/baseline_summary.md`](data/evaluation/baseline_summary.md) | Frozen 30-question human-score summary | Evaluated |
 | [`data/evaluation/error_analysis/error_analysis_report.md`](data/evaluation/error_analysis/error_analysis_report.md) | Evidence-level diagnosis of all Partial/Wrong cases | Evaluated |
 | [`data/experiments/token128_clause_v1/evaluation/final_report.md`](data/experiments/token128_clause_v1/evaluation/final_report.md) | Before/After retrieval results and regressions | Evaluated; negative result |
-| [`docs/demo_examples.md`](docs/demo_examples.md) | Three unchanged examples from the frozen baseline | Pending publication review |
-| [`docs/github_release_preview.md`](docs/github_release_preview.md) | Publication allowlist and safety boundary | Release preparation |
+| [`docs/demo_examples.md`](docs/demo_examples.md) | Three unchanged examples from the frozen baseline | Published; locally reviewed |
+| [`docs/github_release_preview.md`](docs/github_release_preview.md) | Publication allowlist and safety boundary | Published release record |
 
